@@ -1,3 +1,16 @@
+linux-qc2509 (6.8.12-6) unstable; urgency=medium
+
+  [ dependabot[bot] ]
+  * chore(deps): bump softprops/action-gh-release from 2 to 3
+
+  [ nascs@radxa.com ]
+  * feat: add radxa-vmarc-q9075-io packages
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 19 Aug 2026 11:25:25 +0000
+
 linux-qc2509 (6.8.12-5) unstable; urgency=medium
 
   [ Stephen Chen ]
