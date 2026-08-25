@@ -45,6 +45,21 @@
             "source": "/var/run/docker.sock",
             "target": "/var/run/docker.sock",
             "type": "bind"
+        },
+        {
+            "source": "/home/william/.nvm/versions/node/v22.22.0/bin/opencode",
+            "target": "/usr/bin/opencode",
+            "type": "bind"
+        },
+        {
+            "source": "/home/william/.opencode",
+            "target": "/home/vscode/.opencode",
+            "type": "bind"
+        },
+        {
+            "source": "/home/william/.config/opencode",
+            "target": "/home/vscode/.config/opencode",
+            "type": "bind"
         }
     ],
     "overrideCommand": true,

@@ -21,6 +21,7 @@ pre_build_dep:
 
 .PHONY: main_build_dep
 main_build_dep:
+	sudo sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list.d/debian.sources
 	sudo dpkg --add-architecture arm64
 	sudo apt-get update
 	sudo apt-get install -y crossbuild-essential-arm64 binfmt-support qemu-user-static
